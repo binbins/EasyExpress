@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LeftDrawerViewController">
+            <connections>
+                <outlet property="_userIcon" destination="Wuz-zM-2k8" id="byl-7d-5Rh"/>
+                <outlet property="_userName" destination="zDv-s6-4Gk" id="DOi-Ym-i4l"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="客服电话：18790658715" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KMK-BU-aMU">
+                    <rect key="frame" x="75" y="442" width="170" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="如有疑问请致电客服" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VS4-bw-Bmi">
+                    <rect key="frame" x="93" y="414" width="135" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="意见反馈" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iWh-6B-XTd">
+                    <rect key="frame" x="74" y="240" width="68" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="推荐给朋友" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IAC-HC-w9O">
+                    <rect key="frame" x="74" y="280" width="85" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="icon_company_markon.png" translatesAutoresizingMaskIntoConstraints="NO" id="uyn-rb-PoU">
+                    <rect key="frame" x="39" y="200" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="BOr-px-gPp"/>
+                        <constraint firstAttribute="height" constant="20" id="Lfb-BL-MpY"/>
+                    </constraints>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="icon_company_markon.png" translatesAutoresizingMaskIntoConstraints="NO" id="bln-h9-vDG">
+                    <rect key="frame" x="39" y="240" width="20" height="20"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="icon_company_markon.png" translatesAutoresizingMaskIntoConstraints="NO" id="iy6-89-hLI">
+                    <rect key="frame" x="39" y="280" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="7d0-Jh-N10"/>
+                        <constraint firstAttribute="height" constant="20" id="d3x-HX-zm3"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我的收藏" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qlw-Fv-w4a">
+                    <rect key="frame" x="74" y="200" width="68" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ico-touxiang.png" translatesAutoresizingMaskIntoConstraints="NO" id="Wuz-zM-2k8">
+                    <rect key="frame" x="110" y="40" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="RFQ-Ba-P3I"/>
+                        <constraint firstAttribute="width" constant="100" id="Y4o-Zp-Sab"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="50"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="登录轻松快递" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zDv-s6-4Gk">
+                    <rect key="frame" x="109" y="150" width="102" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="bln-h9-vDG" firstAttribute="leading" secondItem="uyn-rb-PoU" secondAttribute="leading" id="4sB-Yb-dem"/>
+                <constraint firstItem="uyn-rb-PoU" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="39" id="5Br-yT-bjs"/>
+                <constraint firstItem="Qlw-Fv-w4a" firstAttribute="centerY" secondItem="uyn-rb-PoU" secondAttribute="centerY" id="6qj-LR-sbj"/>
+                <constraint firstItem="VS4-bw-Bmi" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="CCQ-cC-V3O"/>
+                <constraint firstItem="Qlw-Fv-w4a" firstAttribute="leading" secondItem="uyn-rb-PoU" secondAttribute="trailing" constant="15" id="JpM-du-uAU"/>
+                <constraint firstItem="iy6-89-hLI" firstAttribute="leading" secondItem="uyn-rb-PoU" secondAttribute="leading" id="Jpk-0k-DUF"/>
+                <constraint firstItem="IAC-HC-w9O" firstAttribute="leading" secondItem="iy6-89-hLI" secondAttribute="trailing" constant="15" id="K9B-ZM-uci"/>
+                <constraint firstItem="zDv-s6-4Gk" firstAttribute="top" secondItem="Wuz-zM-2k8" secondAttribute="bottom" constant="10" id="KL8-yb-sEG"/>
+                <constraint firstItem="KMK-BU-aMU" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="OkD-EV-det"/>
+                <constraint firstItem="iWh-6B-XTd" firstAttribute="leading" secondItem="bln-h9-vDG" secondAttribute="trailing" constant="15" id="QCc-oM-cRf"/>
+                <constraint firstItem="Wuz-zM-2k8" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="SIh-CA-I0C"/>
+                <constraint firstItem="uyn-rb-PoU" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="200" id="TVM-ad-hQ2"/>
+                <constraint firstItem="zDv-s6-4Gk" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="TZV-uz-AXN"/>
+                <constraint firstItem="iy6-89-hLI" firstAttribute="top" secondItem="bln-h9-vDG" secondAttribute="bottom" constant="20" id="W7D-2w-TVw"/>
+                <constraint firstItem="KMK-BU-aMU" firstAttribute="top" secondItem="VS4-bw-Bmi" secondAttribute="bottom" constant="10" id="Ze1-Oc-WXM"/>
+                <constraint firstItem="iWh-6B-XTd" firstAttribute="centerY" secondItem="bln-h9-vDG" secondAttribute="centerY" id="fZc-Yu-a9Q"/>
+                <constraint firstItem="bln-h9-vDG" firstAttribute="top" secondItem="uyn-rb-PoU" secondAttribute="bottom" constant="20" id="ga7-DO-cWa"/>
+                <constraint firstItem="Wuz-zM-2k8" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="40" id="jnx-tH-52V"/>
+                <constraint firstItem="IAC-HC-w9O" firstAttribute="centerY" secondItem="iy6-89-hLI" secondAttribute="centerY" id="lnH-lw-aGi"/>
+                <constraint firstAttribute="bottom" secondItem="KMK-BU-aMU" secondAttribute="bottom" constant="20" id="r6a-09-F0K"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                    <integer key="value" value="50"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+        </view>
+    </objects>
+    <resources>
+        <image name="ico-touxiang.png" width="70" height="70"/>
+        <image name="icon_company_markon.png" width="20" height="20"/>
+    </resources>
+</document>

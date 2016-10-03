@@ -1,0 +1,947 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CBD9C31D0BA67B1265799D3 /* libPods-LeanCloud.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B96CAC014F5EBE3B77DC7F1C /* libPods-LeanCloud.a */; };
+		9025B0001D6DD1880027D9A6 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9025AFFF1D6DD1880027D9A6 /* icon.png */; };
+		90574B5F1D65620900014B22 /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90574B5D1D65620900014B22 /* MyNavigationController.m */; };
+		90574B601D65620A00014B22 /* MyNavigationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90574B5E1D65620900014B22 /* MyNavigationController.xib */; };
+		907562951D6A0AC80064881D /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 907562931D6A0AC80064881D /* UserViewController.m */; };
+		907562961D6A0AC80064881D /* UserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 907562941D6A0AC80064881D /* UserViewController.xib */; };
+		9075629A1D6AC3EB0064881D /* ResetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 907562981D6AC3EB0064881D /* ResetViewController.m */; };
+		9075629B1D6AC3EB0064881D /* ResetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 907562991D6AC3EB0064881D /* ResetViewController.xib */; };
+		9075629D1D6B6E950064881D /* icon_result_menuedit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9075629C1D6B6E950064881D /* icon_result_menuedit@2x.png */; };
+		9075629F1D6B6F8F0064881D /* icon_edit_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9075629E1D6B6F8F0064881D /* icon_edit_highlight@2x.png */; };
+		90C269621D794D6E00AE4573 /* NSMutableArray+sync.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C269611D794D6E00AE4573 /* NSMutableArray+sync.m */; };
+		90C269651D79670700AE4573 /* MainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C269641D79670700AE4573 /* MainModel.m */; };
+		90EA79A21D73119B006413AA /* ExpressDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90EA79A01D73119B006413AA /* ExpressDetailTableViewCell.m */; };
+		90EA79A31D73119B006413AA /* ExpressDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90EA79A11D73119B006413AA /* ExpressDetailTableViewCell.xib */; };
+		90EA79A71D731226006413AA /* ExpressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 90EA79A61D731226006413AA /* ExpressModel.m */; };
+		90EA79A91D743A51006413AA /* animatedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90EA79A81D743A51006413AA /* animatedView.xib */; };
+		90EA79AB1D743C01006413AA /* 扫描枪bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90EA79AA1D743C01006413AA /* 扫描枪bg@2x.png */; };
+		90EA79AD1D743C09006413AA /* 扫描枪-横线@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90EA79AC1D743C09006413AA /* 扫描枪-横线@2x.png */; };
+		90EA79B11D7525BF006413AA /* QRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90EA79B01D7525BF006413AA /* QRViewController.m */; };
+		90EA79B71D767D3C006413AA /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 90EA79B61D767D3C006413AA /* DataManager.m */; };
+		90EF8EC61D56CFCD005FAB28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90EF8EC51D56CFCD005FAB28 /* main.m */; };
+		90EF8EC91D56CFCD005FAB28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90EF8EC81D56CFCD005FAB28 /* AppDelegate.m */; };
+		90EF8ECF1D56CFCD005FAB28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90EF8ECD1D56CFCD005FAB28 /* Main.storyboard */; };
+		90EF8ED11D56CFCD005FAB28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90EF8ED01D56CFCD005FAB28 /* Assets.xcassets */; };
+		90EF8ED41D56CFCD005FAB28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90EF8ED21D56CFCD005FAB28 /* LaunchScreen.storyboard */; };
+		90EF8EDF1D56CFCD005FAB28 /* LeanCloudTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90EF8EDE1D56CFCD005FAB28 /* LeanCloudTests.m */; };
+		90EF8EEA1D56CFCD005FAB28 /* LeanCloudUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90EF8EE91D56CFCD005FAB28 /* LeanCloudUITests.m */; };
+		90F302651D6EC01C002D66DD /* QueryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F302631D6EC01C002D66DD /* QueryViewController.m */; };
+		90F302661D6EC01C002D66DD /* QueryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90F302641D6EC01C002D66DD /* QueryViewController.xib */; };
+		90F302681D6EC1DC002D66DD /* ico-saoma@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90F302671D6EC1DC002D66DD /* ico-saoma@3x.png */; };
+		90F3026B1D6EFF9F002D66DD /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F3026A1D6EFF9F002D66DD /* DetailViewController.m */; };
+		90F3026E1D6F0035002D66DD /* CompanyListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F3026D1D6F0035002D66DD /* CompanyListViewController.m */; };
+		90F302701D6F5BF1002D66DD /* companyData.archiver in Resources */ = {isa = PBXBuildFile; fileRef = 90F3026F1D6F5BF1002D66DD /* companyData.archiver */; };
+		90F962B21D61C6A30048A4D4 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F962B01D61C6A30048A4D4 /* TableViewCell.m */; };
+		90F962B31D61C6A30048A4D4 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90F962B11D61C6A30048A4D4 /* TableViewCell.xib */; };
+		90F962B51D61F5530048A4D4 /* icon_result_left_enable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90F962B41D61F5530048A4D4 /* icon_result_left_enable@2x.png */; };
+		90F962B91D6216AB0048A4D4 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F962B71D6216AB0048A4D4 /* RegisterViewController.m */; };
+		90F962BA1D6216AB0048A4D4 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90F962B81D6216AB0048A4D4 /* RegisterViewController.xib */; };
+		90FAB4771D60867900FC58BF /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FAB4751D60867900FC58BF /* LoginViewController.m */; };
+		90FAB4781D60867900FC58BF /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90FAB4761D60867900FC58BF /* LoginViewController.xib */; };
+		90FE76851D5D767000D50DC5 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FE767C1D5D767000D50DC5 /* MMDrawerBarButtonItem.m */; };
+		90FE76861D5D767000D50DC5 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FE767E1D5D767000D50DC5 /* MMDrawerController.m */; };
+		90FE76871D5D767000D50DC5 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FE76801D5D767000D50DC5 /* MMDrawerVisualState.m */; };
+		90FE76881D5D767000D50DC5 /* MMExampleDrawerVisualStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FE76821D5D767000D50DC5 /* MMExampleDrawerVisualStateManager.m */; };
+		90FE76891D5D767000D50DC5 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FE76841D5D767000D50DC5 /* UIViewController+MMDrawerController.m */; };
+		90FE768D1D5D76D900D50DC5 /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FE768C1D5D76D900D50DC5 /* UILabel+Extension.m */; };
+		90FE76941D5D8BD900D50DC5 /* InitialPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FE76921D5D8BD900D50DC5 /* InitialPageViewController.m */; };
+		90FE76951D5D8BD900D50DC5 /* InitialPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90FE76931D5D8BD900D50DC5 /* InitialPageViewController.xib */; };
+		90FE76991D5D8C6F00D50DC5 /* MainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FE76971D5D8C6F00D50DC5 /* MainPageViewController.m */; };
+		90FE769A1D5D8C6F00D50DC5 /* MainPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90FE76981D5D8C6F00D50DC5 /* MainPageViewController.xib */; };
+		90FE76A51D5DAAF400D50DC5 /* LeftDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FE76A31D5DAAF400D50DC5 /* LeftDrawerViewController.m */; };
+		90FE76A61D5DAAF400D50DC5 /* LeftDrawerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90FE76A41D5DAAF400D50DC5 /* LeftDrawerViewController.xib */; };
+		90FE76A81D5E352800D50DC5 /* i_2bg@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90FE76A71D5E352800D50DC5 /* i_2bg@2x.jpg */; };
+		90FE76AA1D5E37DF00D50DC5 /* ico-touxiang@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90FE76A91D5E37DF00D50DC5 /* ico-touxiang@3x.png */; };
+		90FE76AC1D5E38A200D50DC5 /* ico-shoucang-nor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90FE76AB1D5E38A200D50DC5 /* ico-shoucang-nor@3x.png */; };
+		90FE76AE1D5E38FB00D50DC5 /* ico-duanxin-nor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90FE76AD1D5E38FB00D50DC5 /* ico-duanxin-nor@3x.png */; };
+		90FE76B01D5E390300D50DC5 /* ico-fenxiang-nor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90FE76AF1D5E390300D50DC5 /* ico-fenxiang-nor@3x.png */; };
+		90FE76B21D5E3A4C00D50DC5 /* icon_accountbg@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90FE76B11D5E3A4C00D50DC5 /* icon_accountbg@2x.jpg */; };
+		90FE76B41D5E3AF700D50DC5 /* icon_company_markon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90FE76B31D5E3AF700D50DC5 /* icon_company_markon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90EF8EDB1D56CFCD005FAB28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90EF8EB91D56CFCD005FAB28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90EF8EC01D56CFCD005FAB28;
+			remoteInfo = LeanCloud;
+		};
+		90EF8EE61D56CFCD005FAB28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90EF8EB91D56CFCD005FAB28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90EF8EC01D56CFCD005FAB28;
+			remoteInfo = LeanCloud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9025AFFF1D6DD1880027D9A6 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		90574B5C1D65620900014B22 /* MyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationController.h; sourceTree = "<group>"; };
+		90574B5D1D65620900014B22 /* MyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationController.m; sourceTree = "<group>"; };
+		90574B5E1D65620900014B22 /* MyNavigationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyNavigationController.xib; sourceTree = "<group>"; };
+		907562921D6A0AC80064881D /* UserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
+		907562931D6A0AC80064881D /* UserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
+		907562941D6A0AC80064881D /* UserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserViewController.xib; sourceTree = "<group>"; };
+		907562971D6AC3EB0064881D /* ResetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResetViewController.h; sourceTree = "<group>"; };
+		907562981D6AC3EB0064881D /* ResetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResetViewController.m; sourceTree = "<group>"; };
+		907562991D6AC3EB0064881D /* ResetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResetViewController.xib; sourceTree = "<group>"; };
+		9075629C1D6B6E950064881D /* icon_result_menuedit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_result_menuedit@2x.png"; sourceTree = "<group>"; };
+		9075629E1D6B6F8F0064881D /* icon_edit_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_edit_highlight@2x.png"; sourceTree = "<group>"; };
+		90C269601D794D6E00AE4573 /* NSMutableArray+sync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+sync.h"; sourceTree = "<group>"; };
+		90C269611D794D6E00AE4573 /* NSMutableArray+sync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+sync.m"; sourceTree = "<group>"; };
+		90C269631D79670700AE4573 /* MainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainModel.h; sourceTree = "<group>"; };
+		90C269641D79670700AE4573 /* MainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainModel.m; sourceTree = "<group>"; };
+		90EA799F1D73119B006413AA /* ExpressDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpressDetailTableViewCell.h; sourceTree = "<group>"; };
+		90EA79A01D73119B006413AA /* ExpressDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpressDetailTableViewCell.m; sourceTree = "<group>"; };
+		90EA79A11D73119B006413AA /* ExpressDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExpressDetailTableViewCell.xib; sourceTree = "<group>"; };
+		90EA79A51D731226006413AA /* ExpressModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpressModel.h; sourceTree = "<group>"; };
+		90EA79A61D731226006413AA /* ExpressModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpressModel.m; sourceTree = "<group>"; };
+		90EA79A81D743A51006413AA /* animatedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = animatedView.xib; sourceTree = "<group>"; };
+		90EA79AA1D743C01006413AA /* 扫描枪bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "扫描枪bg@2x.png"; sourceTree = "<group>"; };
+		90EA79AC1D743C09006413AA /* 扫描枪-横线@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "扫描枪-横线@2x.png"; sourceTree = "<group>"; };
+		90EA79AF1D7525BF006413AA /* QRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRViewController.h; sourceTree = "<group>"; };
+		90EA79B01D7525BF006413AA /* QRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRViewController.m; sourceTree = "<group>"; };
+		90EA79B51D767D3C006413AA /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		90EA79B61D767D3C006413AA /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		90EF8EC11D56CFCD005FAB28 /* LeanCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeanCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90EF8EC51D56CFCD005FAB28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		90EF8EC71D56CFCD005FAB28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		90EF8EC81D56CFCD005FAB28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		90EF8ECE1D56CFCD005FAB28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90EF8ED01D56CFCD005FAB28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90EF8ED31D56CFCD005FAB28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90EF8ED51D56CFCD005FAB28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90EF8EDA1D56CFCD005FAB28 /* LeanCloudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeanCloudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90EF8EDE1D56CFCD005FAB28 /* LeanCloudTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeanCloudTests.m; sourceTree = "<group>"; };
+		90EF8EE01D56CFCD005FAB28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90EF8EE51D56CFCD005FAB28 /* LeanCloudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeanCloudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90EF8EE91D56CFCD005FAB28 /* LeanCloudUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeanCloudUITests.m; sourceTree = "<group>"; };
+		90EF8EEB1D56CFCD005FAB28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90F302621D6EC01C002D66DD /* QueryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryViewController.h; sourceTree = "<group>"; };
+		90F302631D6EC01C002D66DD /* QueryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueryViewController.m; sourceTree = "<group>"; };
+		90F302641D6EC01C002D66DD /* QueryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QueryViewController.xib; sourceTree = "<group>"; };
+		90F302671D6EC1DC002D66DD /* ico-saoma@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico-saoma@3x.png"; sourceTree = "<group>"; };
+		90F302691D6EFF9F002D66DD /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		90F3026A1D6EFF9F002D66DD /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		90F3026C1D6F0035002D66DD /* CompanyListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyListViewController.h; sourceTree = "<group>"; };
+		90F3026D1D6F0035002D66DD /* CompanyListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyListViewController.m; sourceTree = "<group>"; };
+		90F3026F1D6F5BF1002D66DD /* companyData.archiver */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = companyData.archiver; sourceTree = "<group>"; };
+		90F962AF1D61C6A30048A4D4 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		90F962B01D61C6A30048A4D4 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		90F962B11D61C6A30048A4D4 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		90F962B41D61F5530048A4D4 /* icon_result_left_enable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_result_left_enable@2x.png"; sourceTree = "<group>"; };
+		90F962B61D6216AB0048A4D4 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		90F962B71D6216AB0048A4D4 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		90F962B81D6216AB0048A4D4 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		90FAB4741D60867900FC58BF /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		90FAB4751D60867900FC58BF /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		90FAB4761D60867900FC58BF /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		90FE767B1D5D767000D50DC5 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		90FE767C1D5D767000D50DC5 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		90FE767D1D5D767000D50DC5 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		90FE767E1D5D767000D50DC5 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		90FE767F1D5D767000D50DC5 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		90FE76801D5D767000D50DC5 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		90FE76811D5D767000D50DC5 /* MMExampleDrawerVisualStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMExampleDrawerVisualStateManager.h; sourceTree = "<group>"; };
+		90FE76821D5D767000D50DC5 /* MMExampleDrawerVisualStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMExampleDrawerVisualStateManager.m; sourceTree = "<group>"; };
+		90FE76831D5D767000D50DC5 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		90FE76841D5D767000D50DC5 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		90FE768B1D5D76D900D50DC5 /* UILabel+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Extension.h"; sourceTree = "<group>"; };
+		90FE768C1D5D76D900D50DC5 /* UILabel+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extension.m"; sourceTree = "<group>"; };
+		90FE768E1D5D771B00D50DC5 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = MMDrawerController/PrefixHeader.pch; sourceTree = "<group>"; };
+		90FE76911D5D8BD900D50DC5 /* InitialPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialPageViewController.h; sourceTree = "<group>"; };
+		90FE76921D5D8BD900D50DC5 /* InitialPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialPageViewController.m; sourceTree = "<group>"; };
+		90FE76931D5D8BD900D50DC5 /* InitialPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InitialPageViewController.xib; sourceTree = "<group>"; };
+		90FE76961D5D8C6F00D50DC5 /* MainPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPageViewController.h; sourceTree = "<group>"; };
+		90FE76971D5D8C6F00D50DC5 /* MainPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPageViewController.m; sourceTree = "<group>"; };
+		90FE76981D5D8C6F00D50DC5 /* MainPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainPageViewController.xib; sourceTree = "<group>"; };
+		90FE76A21D5DAAF400D50DC5 /* LeftDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftDrawerViewController.h; sourceTree = "<group>"; };
+		90FE76A31D5DAAF400D50DC5 /* LeftDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftDrawerViewController.m; sourceTree = "<group>"; };
+		90FE76A41D5DAAF400D50DC5 /* LeftDrawerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftDrawerViewController.xib; sourceTree = "<group>"; };
+		90FE76A71D5E352800D50DC5 /* i_2bg@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "i_2bg@2x.jpg"; sourceTree = "<group>"; };
+		90FE76A91D5E37DF00D50DC5 /* ico-touxiang@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico-touxiang@3x.png"; sourceTree = "<group>"; };
+		90FE76AB1D5E38A200D50DC5 /* ico-shoucang-nor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico-shoucang-nor@3x.png"; sourceTree = "<group>"; };
+		90FE76AD1D5E38FB00D50DC5 /* ico-duanxin-nor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico-duanxin-nor@3x.png"; sourceTree = "<group>"; };
+		90FE76AF1D5E390300D50DC5 /* ico-fenxiang-nor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico-fenxiang-nor@3x.png"; sourceTree = "<group>"; };
+		90FE76B11D5E3A4C00D50DC5 /* icon_accountbg@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "icon_accountbg@2x.jpg"; sourceTree = "<group>"; };
+		90FE76B31D5E3AF700D50DC5 /* icon_company_markon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_company_markon@2x.png"; sourceTree = "<group>"; };
+		A9850B667652C42A247FBA84 /* Pods-LeanCloud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeanCloud.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeanCloud/Pods-LeanCloud.debug.xcconfig"; sourceTree = "<group>"; };
+		B96CAC014F5EBE3B77DC7F1C /* libPods-LeanCloud.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LeanCloud.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C17FE205AE5608F3462009C5 /* Pods-LeanCloud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeanCloud.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeanCloud/Pods-LeanCloud.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90EF8EBE1D56CFCD005FAB28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CBD9C31D0BA67B1265799D3 /* libPods-LeanCloud.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90EF8ED71D56CFCD005FAB28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90EF8EE21D56CFCD005FAB28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E14CD330A2DA536D8933F96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B96CAC014F5EBE3B77DC7F1C /* libPods-LeanCloud.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31C9C34B89F7FA6BA649906A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9850B667652C42A247FBA84 /* Pods-LeanCloud.debug.xcconfig */,
+				C17FE205AE5608F3462009C5 /* Pods-LeanCloud.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		90574B5B1D6561B400014B22 /* GENERAL */ = {
+			isa = PBXGroup;
+			children = (
+				90574B5C1D65620900014B22 /* MyNavigationController.h */,
+				90574B5D1D65620900014B22 /* MyNavigationController.m */,
+				90574B5E1D65620900014B22 /* MyNavigationController.xib */,
+			);
+			name = GENERAL;
+			sourceTree = "<group>";
+		};
+		9075628C1D69BD440064881D /* L&R */ = {
+			isa = PBXGroup;
+			children = (
+				90FAB4741D60867900FC58BF /* LoginViewController.h */,
+				90FAB4751D60867900FC58BF /* LoginViewController.m */,
+				90FAB4761D60867900FC58BF /* LoginViewController.xib */,
+				90F962B61D6216AB0048A4D4 /* RegisterViewController.h */,
+				90F962B71D6216AB0048A4D4 /* RegisterViewController.m */,
+				90F962B81D6216AB0048A4D4 /* RegisterViewController.xib */,
+				907562921D6A0AC80064881D /* UserViewController.h */,
+				907562931D6A0AC80064881D /* UserViewController.m */,
+				907562941D6A0AC80064881D /* UserViewController.xib */,
+				907562971D6AC3EB0064881D /* ResetViewController.h */,
+				907562981D6AC3EB0064881D /* ResetViewController.m */,
+				907562991D6AC3EB0064881D /* ResetViewController.xib */,
+			);
+			name = "L&R";
+			sourceTree = "<group>";
+		};
+		90EA79A41D7311E5006413AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				90EA799F1D73119B006413AA /* ExpressDetailTableViewCell.h */,
+				90EA79A01D73119B006413AA /* ExpressDetailTableViewCell.m */,
+				90EA79A11D73119B006413AA /* ExpressDetailTableViewCell.xib */,
+				90EA79A51D731226006413AA /* ExpressModel.h */,
+				90EA79A61D731226006413AA /* ExpressModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		90EA79AE1D752585006413AA /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				90EA79AF1D7525BF006413AA /* QRViewController.h */,
+				90EA79B01D7525BF006413AA /* QRViewController.m */,
+			);
+			name = QRCode;
+			sourceTree = "<group>";
+		};
+		90EF8EB81D56CFCD005FAB28 = {
+			isa = PBXGroup;
+			children = (
+				9025AFFF1D6DD1880027D9A6 /* icon.png */,
+				90FE768E1D5D771B00D50DC5 /* PrefixHeader.pch */,
+				90FE768A1D5D76AC00D50DC5 /* 类目扩展 */,
+				90FE767A1D5D767000D50DC5 /* MMDrawerController */,
+				90EF8EC31D56CFCD005FAB28 /* LeanCloud */,
+				90EF8EDD1D56CFCD005FAB28 /* LeanCloudTests */,
+				90EF8EE81D56CFCD005FAB28 /* LeanCloudUITests */,
+				90EF8EC21D56CFCD005FAB28 /* Products */,
+				31C9C34B89F7FA6BA649906A /* Pods */,
+				1E14CD330A2DA536D8933F96 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		90EF8EC21D56CFCD005FAB28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90EF8EC11D56CFCD005FAB28 /* LeanCloud.app */,
+				90EF8EDA1D56CFCD005FAB28 /* LeanCloudTests.xctest */,
+				90EF8EE51D56CFCD005FAB28 /* LeanCloudUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90EF8EC31D56CFCD005FAB28 /* LeanCloud */ = {
+			isa = PBXGroup;
+			children = (
+				90EF8EC71D56CFCD005FAB28 /* AppDelegate.h */,
+				90EF8EC81D56CFCD005FAB28 /* AppDelegate.m */,
+				90EA79B51D767D3C006413AA /* DataManager.h */,
+				90EA79B61D767D3C006413AA /* DataManager.m */,
+				90574B5B1D6561B400014B22 /* GENERAL */,
+				90FE769B1D5DA7DE00D50DC5 /* LeftDrawer */,
+				90FE768F1D5D8B6C00D50DC5 /* InitialPage */,
+				90FE76901D5D8B8E00D50DC5 /* MainPage */,
+				90FE76A11D5DA8D500D50DC5 /* Materials */,
+				90EF8ECD1D56CFCD005FAB28 /* Main.storyboard */,
+				90EF8ED01D56CFCD005FAB28 /* Assets.xcassets */,
+				90EF8ED21D56CFCD005FAB28 /* LaunchScreen.storyboard */,
+				90EF8ED51D56CFCD005FAB28 /* Info.plist */,
+				90EF8EC41D56CFCD005FAB28 /* Supporting Files */,
+			);
+			path = LeanCloud;
+			sourceTree = "<group>";
+		};
+		90EF8EC41D56CFCD005FAB28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90EF8EC51D56CFCD005FAB28 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90EF8EDD1D56CFCD005FAB28 /* LeanCloudTests */ = {
+			isa = PBXGroup;
+			children = (
+				90EF8EDE1D56CFCD005FAB28 /* LeanCloudTests.m */,
+				90EF8EE01D56CFCD005FAB28 /* Info.plist */,
+			);
+			path = LeanCloudTests;
+			sourceTree = "<group>";
+		};
+		90EF8EE81D56CFCD005FAB28 /* LeanCloudUITests */ = {
+			isa = PBXGroup;
+			children = (
+				90EF8EE91D56CFCD005FAB28 /* LeanCloudUITests.m */,
+				90EF8EEB1D56CFCD005FAB28 /* Info.plist */,
+			);
+			path = LeanCloudUITests;
+			sourceTree = "<group>";
+		};
+		90F302611D6EBFC3002D66DD /* QueryView */ = {
+			isa = PBXGroup;
+			children = (
+				90EA79A41D7311E5006413AA /* Model */,
+				90F302621D6EC01C002D66DD /* QueryViewController.h */,
+				90F302631D6EC01C002D66DD /* QueryViewController.m */,
+				90F302641D6EC01C002D66DD /* QueryViewController.xib */,
+				90EA79A81D743A51006413AA /* animatedView.xib */,
+				90F302691D6EFF9F002D66DD /* DetailViewController.h */,
+				90F3026A1D6EFF9F002D66DD /* DetailViewController.m */,
+				90F3026C1D6F0035002D66DD /* CompanyListViewController.h */,
+				90F3026D1D6F0035002D66DD /* CompanyListViewController.m */,
+				90EA79AE1D752585006413AA /* QRCode */,
+			);
+			name = QueryView;
+			sourceTree = "<group>";
+		};
+		90FE767A1D5D767000D50DC5 /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				90FE767B1D5D767000D50DC5 /* MMDrawerBarButtonItem.h */,
+				90FE767C1D5D767000D50DC5 /* MMDrawerBarButtonItem.m */,
+				90FE767D1D5D767000D50DC5 /* MMDrawerController.h */,
+				90FE767E1D5D767000D50DC5 /* MMDrawerController.m */,
+				90FE767F1D5D767000D50DC5 /* MMDrawerVisualState.h */,
+				90FE76801D5D767000D50DC5 /* MMDrawerVisualState.m */,
+				90FE76811D5D767000D50DC5 /* MMExampleDrawerVisualStateManager.h */,
+				90FE76821D5D767000D50DC5 /* MMExampleDrawerVisualStateManager.m */,
+				90FE76831D5D767000D50DC5 /* UIViewController+MMDrawerController.h */,
+				90FE76841D5D767000D50DC5 /* UIViewController+MMDrawerController.m */,
+			);
+			path = MMDrawerController;
+			sourceTree = "<group>";
+		};
+		90FE768A1D5D76AC00D50DC5 /* 类目扩展 */ = {
+			isa = PBXGroup;
+			children = (
+				90FE768B1D5D76D900D50DC5 /* UILabel+Extension.h */,
+				90FE768C1D5D76D900D50DC5 /* UILabel+Extension.m */,
+				90C269601D794D6E00AE4573 /* NSMutableArray+sync.h */,
+				90C269611D794D6E00AE4573 /* NSMutableArray+sync.m */,
+			);
+			name = "类目扩展";
+			path = MMDrawerController;
+			sourceTree = "<group>";
+		};
+		90FE768F1D5D8B6C00D50DC5 /* InitialPage */ = {
+			isa = PBXGroup;
+			children = (
+				90FE76911D5D8BD900D50DC5 /* InitialPageViewController.h */,
+				90FE76921D5D8BD900D50DC5 /* InitialPageViewController.m */,
+				90FE76931D5D8BD900D50DC5 /* InitialPageViewController.xib */,
+			);
+			name = InitialPage;
+			sourceTree = "<group>";
+		};
+		90FE76901D5D8B8E00D50DC5 /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				90FE76961D5D8C6F00D50DC5 /* MainPageViewController.h */,
+				90FE76971D5D8C6F00D50DC5 /* MainPageViewController.m */,
+				90FE76981D5D8C6F00D50DC5 /* MainPageViewController.xib */,
+				90F962AF1D61C6A30048A4D4 /* TableViewCell.h */,
+				90F962B01D61C6A30048A4D4 /* TableViewCell.m */,
+				90F962B11D61C6A30048A4D4 /* TableViewCell.xib */,
+				90C269631D79670700AE4573 /* MainModel.h */,
+				90C269641D79670700AE4573 /* MainModel.m */,
+				90F302611D6EBFC3002D66DD /* QueryView */,
+			);
+			name = MainPage;
+			sourceTree = "<group>";
+		};
+		90FE769B1D5DA7DE00D50DC5 /* LeftDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				90FE76A21D5DAAF400D50DC5 /* LeftDrawerViewController.h */,
+				90FE76A31D5DAAF400D50DC5 /* LeftDrawerViewController.m */,
+				90FE76A41D5DAAF400D50DC5 /* LeftDrawerViewController.xib */,
+				9075628C1D69BD440064881D /* L&R */,
+			);
+			name = LeftDrawer;
+			sourceTree = "<group>";
+		};
+		90FE76A11D5DA8D500D50DC5 /* Materials */ = {
+			isa = PBXGroup;
+			children = (
+				90EA79AC1D743C09006413AA /* 扫描枪-横线@2x.png */,
+				90EA79AA1D743C01006413AA /* 扫描枪bg@2x.png */,
+				90F3026F1D6F5BF1002D66DD /* companyData.archiver */,
+				90F302671D6EC1DC002D66DD /* ico-saoma@3x.png */,
+				9075629E1D6B6F8F0064881D /* icon_edit_highlight@2x.png */,
+				9075629C1D6B6E950064881D /* icon_result_menuedit@2x.png */,
+				90F962B41D61F5530048A4D4 /* icon_result_left_enable@2x.png */,
+				90FE76B31D5E3AF700D50DC5 /* icon_company_markon@2x.png */,
+				90FE76B11D5E3A4C00D50DC5 /* icon_accountbg@2x.jpg */,
+				90FE76AF1D5E390300D50DC5 /* ico-fenxiang-nor@3x.png */,
+				90FE76AD1D5E38FB00D50DC5 /* ico-duanxin-nor@3x.png */,
+				90FE76AB1D5E38A200D50DC5 /* ico-shoucang-nor@3x.png */,
+				90FE76A91D5E37DF00D50DC5 /* ico-touxiang@3x.png */,
+				90FE76A71D5E352800D50DC5 /* i_2bg@2x.jpg */,
+			);
+			name = Materials;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90EF8EC01D56CFCD005FAB28 /* LeanCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90EF8EEE1D56CFCD005FAB28 /* Build configuration list for PBXNativeTarget "LeanCloud" */;
+			buildPhases = (
+				977CDB789B92A357B163A125 /* [CP] Check Pods Manifest.lock */,
+				90EF8EBD1D56CFCD005FAB28 /* Sources */,
+				90EF8EBE1D56CFCD005FAB28 /* Frameworks */,
+				90EF8EBF1D56CFCD005FAB28 /* Resources */,
+				0860AF16F69A480E6B54AD43 /* [CP] Embed Pods Frameworks */,
+				3BE30D529E4E79FCB3323ED4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeanCloud;
+			productName = LeanCloud;
+			productReference = 90EF8EC11D56CFCD005FAB28 /* LeanCloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90EF8ED91D56CFCD005FAB28 /* LeanCloudTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90EF8EF11D56CFCD005FAB28 /* Build configuration list for PBXNativeTarget "LeanCloudTests" */;
+			buildPhases = (
+				90EF8ED61D56CFCD005FAB28 /* Sources */,
+				90EF8ED71D56CFCD005FAB28 /* Frameworks */,
+				90EF8ED81D56CFCD005FAB28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90EF8EDC1D56CFCD005FAB28 /* PBXTargetDependency */,
+			);
+			name = LeanCloudTests;
+			productName = LeanCloudTests;
+			productReference = 90EF8EDA1D56CFCD005FAB28 /* LeanCloudTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		90EF8EE41D56CFCD005FAB28 /* LeanCloudUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90EF8EF41D56CFCD005FAB28 /* Build configuration list for PBXNativeTarget "LeanCloudUITests" */;
+			buildPhases = (
+				90EF8EE11D56CFCD005FAB28 /* Sources */,
+				90EF8EE21D56CFCD005FAB28 /* Frameworks */,
+				90EF8EE31D56CFCD005FAB28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90EF8EE71D56CFCD005FAB28 /* PBXTargetDependency */,
+			);
+			name = LeanCloudUITests;
+			productName = LeanCloudUITests;
+			productReference = 90EF8EE51D56CFCD005FAB28 /* LeanCloudUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90EF8EB91D56CFCD005FAB28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = yuebin;
+				TargetAttributes = {
+					90EF8EC01D56CFCD005FAB28 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = RZA9S6KWC6;
+					};
+					90EF8ED91D56CFCD005FAB28 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = RZA9S6KWC6;
+						TestTargetID = 90EF8EC01D56CFCD005FAB28;
+					};
+					90EF8EE41D56CFCD005FAB28 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = RZA9S6KWC6;
+						TestTargetID = 90EF8EC01D56CFCD005FAB28;
+					};
+				};
+			};
+			buildConfigurationList = 90EF8EBC1D56CFCD005FAB28 /* Build configuration list for PBXProject "LeanCloud" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90EF8EB81D56CFCD005FAB28;
+			productRefGroup = 90EF8EC21D56CFCD005FAB28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90EF8EC01D56CFCD005FAB28 /* LeanCloud */,
+				90EF8ED91D56CFCD005FAB28 /* LeanCloudTests */,
+				90EF8EE41D56CFCD005FAB28 /* LeanCloudUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90EF8EBF1D56CFCD005FAB28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90EA79AB1D743C01006413AA /* 扫描枪bg@2x.png in Resources */,
+				90FE76B21D5E3A4C00D50DC5 /* icon_accountbg@2x.jpg in Resources */,
+				90F962B31D61C6A30048A4D4 /* TableViewCell.xib in Resources */,
+				90F962B51D61F5530048A4D4 /* icon_result_left_enable@2x.png in Resources */,
+				90F302701D6F5BF1002D66DD /* companyData.archiver in Resources */,
+				90F302681D6EC1DC002D66DD /* ico-saoma@3x.png in Resources */,
+				90FE76AA1D5E37DF00D50DC5 /* ico-touxiang@3x.png in Resources */,
+				90FE76AE1D5E38FB00D50DC5 /* ico-duanxin-nor@3x.png in Resources */,
+				90EA79AD1D743C09006413AA /* 扫描枪-横线@2x.png in Resources */,
+				90FE76951D5D8BD900D50DC5 /* InitialPageViewController.xib in Resources */,
+				9075629B1D6AC3EB0064881D /* ResetViewController.xib in Resources */,
+				907562961D6A0AC80064881D /* UserViewController.xib in Resources */,
+				90FE76B01D5E390300D50DC5 /* ico-fenxiang-nor@3x.png in Resources */,
+				90FE76A81D5E352800D50DC5 /* i_2bg@2x.jpg in Resources */,
+				90EF8ED41D56CFCD005FAB28 /* LaunchScreen.storyboard in Resources */,
+				90574B601D65620A00014B22 /* MyNavigationController.xib in Resources */,
+				9075629F1D6B6F8F0064881D /* icon_edit_highlight@2x.png in Resources */,
+				90EA79A31D73119B006413AA /* ExpressDetailTableViewCell.xib in Resources */,
+				90F302661D6EC01C002D66DD /* QueryViewController.xib in Resources */,
+				9025B0001D6DD1880027D9A6 /* icon.png in Resources */,
+				90FE76A61D5DAAF400D50DC5 /* LeftDrawerViewController.xib in Resources */,
+				90FE76AC1D5E38A200D50DC5 /* ico-shoucang-nor@3x.png in Resources */,
+				90EF8ED11D56CFCD005FAB28 /* Assets.xcassets in Resources */,
+				90EF8ECF1D56CFCD005FAB28 /* Main.storyboard in Resources */,
+				90FE76B41D5E3AF700D50DC5 /* icon_company_markon@2x.png in Resources */,
+				90EA79A91D743A51006413AA /* animatedView.xib in Resources */,
+				90FAB4781D60867900FC58BF /* LoginViewController.xib in Resources */,
+				9075629D1D6B6E950064881D /* icon_result_menuedit@2x.png in Resources */,
+				90F962BA1D6216AB0048A4D4 /* RegisterViewController.xib in Resources */,
+				90FE769A1D5D8C6F00D50DC5 /* MainPageViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90EF8ED81D56CFCD005FAB28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90EF8EE31D56CFCD005FAB28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0860AF16F69A480E6B54AD43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeanCloud/Pods-LeanCloud-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BE30D529E4E79FCB3323ED4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeanCloud/Pods-LeanCloud-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		977CDB789B92A357B163A125 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90EF8EBD1D56CFCD005FAB28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90FE76A51D5DAAF400D50DC5 /* LeftDrawerViewController.m in Sources */,
+				90FE768D1D5D76D900D50DC5 /* UILabel+Extension.m in Sources */,
+				90FE76881D5D767000D50DC5 /* MMExampleDrawerVisualStateManager.m in Sources */,
+				90FE76991D5D8C6F00D50DC5 /* MainPageViewController.m in Sources */,
+				90FE76871D5D767000D50DC5 /* MMDrawerVisualState.m in Sources */,
+				90FE76941D5D8BD900D50DC5 /* InitialPageViewController.m in Sources */,
+				90EA79A71D731226006413AA /* ExpressModel.m in Sources */,
+				90C269621D794D6E00AE4573 /* NSMutableArray+sync.m in Sources */,
+				90F962B21D61C6A30048A4D4 /* TableViewCell.m in Sources */,
+				90EA79B11D7525BF006413AA /* QRViewController.m in Sources */,
+				90FE76891D5D767000D50DC5 /* UIViewController+MMDrawerController.m in Sources */,
+				90EA79A21D73119B006413AA /* ExpressDetailTableViewCell.m in Sources */,
+				90FE76861D5D767000D50DC5 /* MMDrawerController.m in Sources */,
+				90F3026B1D6EFF9F002D66DD /* DetailViewController.m in Sources */,
+				90EA79B71D767D3C006413AA /* DataManager.m in Sources */,
+				9075629A1D6AC3EB0064881D /* ResetViewController.m in Sources */,
+				90574B5F1D65620900014B22 /* MyNavigationController.m in Sources */,
+				90F302651D6EC01C002D66DD /* QueryViewController.m in Sources */,
+				90FAB4771D60867900FC58BF /* LoginViewController.m in Sources */,
+				90FE76851D5D767000D50DC5 /* MMDrawerBarButtonItem.m in Sources */,
+				90F962B91D6216AB0048A4D4 /* RegisterViewController.m in Sources */,
+				90F3026E1D6F0035002D66DD /* CompanyListViewController.m in Sources */,
+				90C269651D79670700AE4573 /* MainModel.m in Sources */,
+				907562951D6A0AC80064881D /* UserViewController.m in Sources */,
+				90EF8EC91D56CFCD005FAB28 /* AppDelegate.m in Sources */,
+				90EF8EC61D56CFCD005FAB28 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90EF8ED61D56CFCD005FAB28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90EF8EDF1D56CFCD005FAB28 /* LeanCloudTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90EF8EE11D56CFCD005FAB28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90EF8EEA1D56CFCD005FAB28 /* LeanCloudUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90EF8EDC1D56CFCD005FAB28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90EF8EC01D56CFCD005FAB28 /* LeanCloud */;
+			targetProxy = 90EF8EDB1D56CFCD005FAB28 /* PBXContainerItemProxy */;
+		};
+		90EF8EE71D56CFCD005FAB28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90EF8EC01D56CFCD005FAB28 /* LeanCloud */;
+			targetProxy = 90EF8EE61D56CFCD005FAB28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90EF8ECD1D56CFCD005FAB28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90EF8ECE1D56CFCD005FAB28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90EF8ED21D56CFCD005FAB28 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90EF8ED31D56CFCD005FAB28 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90EF8EEC1D56CFCD005FAB28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90EF8EED1D56CFCD005FAB28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90EF8EEF1D56CFCD005FAB28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9850B667652C42A247FBA84 /* Pods-LeanCloud.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MMDrawerController/PrefixHeader.pch";
+				INFOPLIST_FILE = LeanCloud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ybb.Inc.LeanCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		90EF8EF01D56CFCD005FAB28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C17FE205AE5608F3462009C5 /* Pods-LeanCloud.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MMDrawerController/PrefixHeader.pch";
+				INFOPLIST_FILE = LeanCloud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ybb.Inc.LeanCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		90EF8EF21D56CFCD005FAB28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LeanCloudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ybb.Inc.LeanCloudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeanCloud.app/LeanCloud";
+			};
+			name = Debug;
+		};
+		90EF8EF31D56CFCD005FAB28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LeanCloudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ybb.Inc.LeanCloudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeanCloud.app/LeanCloud";
+			};
+			name = Release;
+		};
+		90EF8EF51D56CFCD005FAB28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LeanCloudUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ybb.Inc.LeanCloudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LeanCloud;
+			};
+			name = Debug;
+		};
+		90EF8EF61D56CFCD005FAB28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LeanCloudUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ybb.Inc.LeanCloudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LeanCloud;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90EF8EBC1D56CFCD005FAB28 /* Build configuration list for PBXProject "LeanCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90EF8EEC1D56CFCD005FAB28 /* Debug */,
+				90EF8EED1D56CFCD005FAB28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90EF8EEE1D56CFCD005FAB28 /* Build configuration list for PBXNativeTarget "LeanCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90EF8EEF1D56CFCD005FAB28 /* Debug */,
+				90EF8EF01D56CFCD005FAB28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90EF8EF11D56CFCD005FAB28 /* Build configuration list for PBXNativeTarget "LeanCloudTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90EF8EF21D56CFCD005FAB28 /* Debug */,
+				90EF8EF31D56CFCD005FAB28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90EF8EF41D56CFCD005FAB28 /* Build configuration list for PBXNativeTarget "LeanCloudUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90EF8EF51D56CFCD005FAB28 /* Debug */,
+				90EF8EF61D56CFCD005FAB28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90EF8EB91D56CFCD005FAB28 /* Project object */;
+}

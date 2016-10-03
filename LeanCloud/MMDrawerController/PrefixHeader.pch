@@ -1,0 +1,27 @@
+//
+//  PrefixHeader.pch
+//  LeanCloud
+//
+//  Created by yuebin on 16/8/12.
+//  Copyright © 2016年 yuebin. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#define KSC_W [UIScreen mainScreen].bounds.size.width
+#define KSC_H [UIScreen mainScreen].bounds.size.height
+
+#import <AVOSCloud/AVOSCloud.h>
+
+#import "AFNetworking.h"
+#import "UIImageView+WebCache.h"
+#import "UILabel+Extension.h"
+#import "MyNavigationController.h"
+#import "AFNetworking.h"
+
+#import "DataManager.h"
+#import "NSMutableArray+sync.h"
+
+#endif /* PrefixHeader_pch */
